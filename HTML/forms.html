@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form File</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/action.php">
+        <input type="text" placeholder="Enter UserName">
+        <br><br>
+        <input type="password" placeholder="Password">
+        <br>
+        <label for="101"> 
+        <input type="radio" value="class XI" name="class" id="101">Class XI
+        </label>
+        <br>
+        <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">Class XII
+        </label>
+    </form>
+    <!--For creating Checkbox-->
+    <h2>Select Subject</h2>
+    <form action="/action.php">
+        <label for="Math">
+            <input type="checkbox" value="Math" name="subject" id="101">Math
+        </label>
+        <br>
+        <label for="Science">
+            <input type="checkbox" value="Science" name="subject" id="102">Science
+        </label>
+        <br>
+        <label for="Social Studies">
+            <input type="checkbox" value="Social Studies" name="subject" id="103">Social Studies
+        </label>
+        <br>
+        <label for="Sanskrit">
+            <input type="checkbox" value="Sanskrit" name="subject" id="104">Sanskrit
+        </label>
+        <br>
+        <label for="Physics">
+            <input type="checkbox" value="Physics" name="subject" id="104">Physics
+        </label>
+        <br>
+        <h2>Select City</h2>
+        <br>
+        <!--For creating drop down-->
+        <select name="city">
+            <option value="Bhopal">Bhopal</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Indore">Mumbai</option>
+        </select>
+        <br><br><br>
+        <textarea name="feedback" id="205" placeholder="Please Give your valuable feedback" rows="5">Feedback</textarea>
+        <br>
+        <input type="submit" name="sumbit">
+        
+    </form>
+</body>
+</html>
