@@ -1,0 +1,38 @@
+/* body{
+    background-color: black;
+}
+
+#box{
+    background-color:#eac407 ;
+}
+
+.box__description{
+    color: #a70425;
+}
+
+.heading{
+    background-color: #a70425;
+    color: #eac407;
+}
+
+button{
+    background-color:#17d8ae;
+    color:#a70425;
+} */
+
+*{
+    font-family: Times New Roman;
+}
+h1{
+    text-align: center;
+    text-transform:capitalize;
+    background-color:cadetblue;
+}
+
+#first{
+    font-size:25px;
+
+}
+#second{
+    font-size: 10px;
+}
